@@ -1,5 +1,5 @@
-class Solution(object):
-    def findMaxAverage(self, nums, k):
+class Solution:
+    def findMaxAverage(self, nums: List[int], k: int) -> float:
         n = len(nums)
         
         i = 0
@@ -21,8 +21,5 @@ class Solution(object):
                 j += 1
 
             
-        return(ans/float(k))
-
-
-       
+        return(ans/k)
         
