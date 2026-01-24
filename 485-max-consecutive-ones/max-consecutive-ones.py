@@ -4,11 +4,11 @@ class Solution:
         count = 0
         ans = 0
 
-        for i in range(n):
-            if nums[i] == 1:
+        for num in nums:
+            if num == 1:
                 count += 1
                 ans = max(count,ans)
-            elif nums[i] != 1:
+            else:
                 count = 0
 
         return(ans)
