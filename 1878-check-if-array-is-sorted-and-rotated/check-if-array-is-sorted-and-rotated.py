@@ -11,10 +11,9 @@ class Solution:
             count += 1
             
             
-        if count <= 1:
-            return True
-        else:
-            return False
+        return count <=1 #ye ek boolen condn ban chuki ha automatic true aur false return kare gi
+        
+
             
             
 
