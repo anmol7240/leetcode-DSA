@@ -2,4 +2,4 @@
 SELECT
 a.name AS Employee
 FROM Employee a
-LEFT JOIN Employee b ON a.managerId = b.id WHERE a.salary > b.salary
+INNER JOIN Employee b ON a.managerId = b.id WHERE a.salary > b.salary
